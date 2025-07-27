@@ -1,0 +1,403 @@
+:root {
+  --rootblox-primary-color: #673bf0;
+  --rootblox-border-color: #ebe6fb;
+  --rootblox-dark-shade: #040c36;
+  --rootblox-light-shade: #fff;
+}
+
+.cthf__border-none {
+  border: none !important;
+}
+.cthf__light-border-top {
+  border-top: 1px solid #e0e0e0 !important;
+}
+.cthf__light-border-bottom {
+  border-bottom: 1px solid #e0e0e0 !important;
+}
+.cthf__padding-none {
+  padding: 0 !important;
+}
+.components-panel__body.block-editor-block-inspector__advanced {
+  margin-top: 0 !important;
+}
+
+/* Tab Panel */
+.cthf__tab-panel {
+  justify-content: center;
+
+  &.attr-panel .components-tab-panel__tabs {
+    margin-top: 16px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  & .cthf__tab.components-button {
+    width: 100%;
+    justify-content: center;
+
+    &.attr-tab {
+      height: 32px !important;
+    }
+    &.attr-tab.attr-active {
+      background-color: #5144ff;
+      color: #fff;
+      margin-bottom: -1px;
+    }
+  }
+}
+
+/* Attribute Wrapper */
+.cthf__attr-wrapper {
+  margin: 22px 0;
+
+  & .components-grid .components-flex .components-base-control {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Pattern */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+.components-modal__frame.has-size-large.cthf__pattern-modal {
+  max-width: 1024px;
+}
+.cthf__pattern-modal .pattern__layout-wrapper {
+  column-count: 3;
+  gap: 16px;
+}
+.cthf-block__pattern {
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  position: relative;
+  padding: 14px;
+
+  & .pattern__overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(62, 62, 62, 0.5);
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  & .pattern__import-btn,
+  & .cthf__upsell-btn {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    padding: 8px 22px;
+    border-radius: 100px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Poppins;
+    text-align: center;
+  }
+  & .pattern__import-btn {
+    background-color: #0c50ff;
+    color: #fff;
+
+    &:hover {
+      background-color: #17d4a8;
+    }
+  }
+  & .cthf__upsell-btn {
+    background-color: #f90;
+    color: #fff;
+
+    &:hover {
+      background-color: #17d4a8;
+    }
+  }
+
+  & img {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  & .pro__crown {
+    background-image: url("../img/icon_crown.png");
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    border-radius: 100px;
+    margin: 4px 4px 0 0;
+  }
+
+  &:hover {
+    & .pattern__overlay {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    & .pattern__import-btn,
+    & .cthf__upsell-btn {
+      top: 50%;
+      visibility: visible;
+      opacity: 1;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+.cthf__starter-wrap {
+  padding: 24px;
+  border: 1px solid #000;
+
+  & .cthf__starter-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    & .starter__title {
+      font-size: 16px;
+    }
+  }
+
+  & .starter__img {
+    margin: 0;
+    max-width: 22px;
+    max-height: 22px;
+
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  & .cthf__starter-content {
+    margin-top: 8px;
+  }
+
+  & .cthf__starter-btn-wrap {
+    display: flex;
+    gap: 12px;
+  }
+}
+
+/* Mobile Menu Layouts */
+.cthf__btn-remove.components-button,
+.cthf__btn-secondary.components-button {
+  font-size: 13px;
+  text-align: center;
+  display: inline-block;
+  font-family: Poppins;
+  font-weight: 500;
+  border-radius: 5px;
+  outline: none;
+
+  &:hover {
+    color: #fff;
+    border-color: transparent;
+  }
+}
+.cthf__btn-secondary.components-button {
+  border: 1px solid #5144ff;
+  color: #5144ff;
+
+  &:hover {
+    background-color: #5144ff;
+  }
+}
+.cthf__btn-remove.components-button {
+  border: 1px solid #cf2e2e;
+  color: #cf2e2e;
+
+  &:hover {
+    background-color: #cf2e2e;
+  }
+}
+.cthf__mobile-layout-modal {
+  max-width: 950px;
+
+  & .mobile__layouts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+
+    & .layout__item {
+      max-width: 100%;
+      max-height: 60px;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      overflow: hidden;
+
+      &.is-selected {
+        padding: 3px;
+        background-color: #0f6;
+      }
+
+      & img {
+        width: 100%;
+        height: 100%;
+      }
+
+      & .pattern__overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(62, 62, 62, 0.5);
+        visibility: hidden;
+        opacity: 0;
+      }
+
+      & .pro__crown {
+        background-image: url("../img/icon_crown.png");
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        width: 20px;
+        height: 20px;
+        border-radius: 100px;
+        margin: 5px 4px 0 0;
+      }
+
+      & .layout__select-btn,
+      & .cthf__upsell-btn {
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%, -50%);
+        padding: 6px 26px;
+        border-radius: 100px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: Poppins;
+        cursor: pointer;
+      }
+      & .layout__select-btn {
+        background-color: #0c50ff;
+        color: #fff;
+
+        &:hover {
+          background-color: #17d4a8;
+        }
+      }
+      & .cthf__upsell-btn {
+        background-color: #f90;
+        color: #fff;
+
+        &:hover {
+          background-color: #17d4a8;
+        }
+      }
+
+      &:hover {
+        & .pattern__overlay {
+          visibility: visible;
+          opacity: 1;
+        }
+
+        & .layout__select-btn,
+        & .cthf__upsell-btn {
+          top: 50%;
+          visibility: visible;
+          opacity: 1;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+/* Upsell Attribute Wrapper */
+.cthf__upsell-attr-wrapper {
+  position: relative;
+
+  & .cthf__pro-label {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & svg {
+      fill: #f90;
+    }
+  }
+}
+
+/* Attribute Wrapper */
+
+/* Unit Control */
+.cthf__style-attr-wrapper.is-half__unit-control {
+  & .components-base-control__field {
+    max-width: 40%;
+  }
+}
+
+/* PanelColorSettings */
+.cthf__color-panel {
+  padding: 22px 0 10px 0 !important;
+}
+
+/* Field set */
+.cthf__attr-group {
+  margin: 10px 0 22px;
+  padding-bottom: 12px;
+  border-top: 1px solid #dcdcde;
+
+  & > legend {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 auto;
+    color: #1e1e1e;
+  }
+}
+
+/* Help Text */
+.cthf__help-text {
+  color: rgb(117, 117, 117);
+}
+
+/* Panel */
+.cthf__attr-panel {
+  padding: 16px;
+  border-top: 1px solid #e0e0e0 !important;
+}
+
+/* Block Upsell Notice */
+.cthf__block-upsell-notice {
+  padding: 10px 0 10px 16px;
+  border-left: 3px solid var(--rootblox-primary-color);
+  margin: 16px 0 16px 8px;
+
+  & .upsell__title {
+    margin: 0 0 6px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  & .upsell__btn {
+    color: var(--rootblox-primary-color);
+    border: 1px solid var(--rootblox-primary-color);
+    padding: 6px 14px;
+    text-decoration: none;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: var(--rootblox-dark-shade);
+      color: var(--rootblox-light-shade);
+      border-color: transparent;
+    }
+  }
+}

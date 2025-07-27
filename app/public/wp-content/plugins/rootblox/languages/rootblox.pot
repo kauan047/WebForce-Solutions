@@ -1,0 +1,2492 @@
+# Copyright (C) 2025 CozyThemes
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rootblox 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rootblox\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-30T09:17:16+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: rootblox\n"
+
+#. Plugin Name of the plugin
+#: rootblox.php
+#: admin/dashboard.php:18
+msgid "Rootblox"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: rootblox.php
+msgid "https://cozythemes.com/rootblox"
+msgstr ""
+
+#. Description of the plugin
+#: rootblox.php
+msgid "Create headers and footers with multiple block patterns. Easily customize layout and style for a polished look!"
+msgstr ""
+
+#. Author of the plugin
+#: rootblox.php
+msgid "CozyThemes"
+msgstr ""
+
+#. Author URI of the plugin
+#: rootblox.php
+msgid "https://cozythemes.com/"
+msgstr ""
+
+#: admin/admin-notice.php:30
+msgid "Rootblox brand logo"
+msgstr ""
+
+#: admin/admin-notice.php:34
+msgid "Thank You for Using Rootblox – Power Up Your Site!!"
+msgstr ""
+
+#: admin/admin-notice.php:35
+msgid "Build stunning headers & footers with ease! Rootblox gives you 20+ headers, 50+ footers, a responsive menu builder, AJAX search, scroll progress bar & back to top button—all fully compatible with Full Site Editing."
+msgstr ""
+
+#: admin/admin-notice.php:37
+msgid "Explore Rootblox"
+msgstr ""
+
+#: admin/admin-notice.php:38
+#: blocks/business-hours/build/index.js:1
+#: blocks/contact-info/build/index.js:1
+#: blocks/copyright-text/build/index.js:1
+#: blocks/footer/build/index.js:1
+#: blocks/header/build/index.js:1
+#: resources/components/utility.js:197
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: admin/dashboard.php:21
+msgid "v"
+msgstr ""
+
+#: admin/dashboard.php:35
+msgid "Welcome"
+msgstr ""
+
+#: admin/dashboard.php:38
+msgid "Blocks"
+msgstr ""
+
+#: admin/dashboard.php:41
+msgid "Free vs Pro"
+msgstr ""
+
+#: admin/dashboard.php:46
+msgid "Visit Site"
+msgstr ""
+
+#: admin/dashboard.php:76
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: admin/dashboard.php:77
+msgid "View Full Features Comparison"
+msgstr ""
+
+#: admin/functions.php:448
+msgid "View More"
+msgstr ""
+
+#: admin/functions.php:452
+msgid "Hmm… we couldn’t find that. Search again?"
+msgstr ""
+
+#: admin/tabs/blocks.php:72
+msgid "Control Setting for Blocks"
+msgstr ""
+
+#: admin/tabs/blocks.php:73
+msgid "Easily enable or disable individual blocks based on your needs. Disabling unused blocks not only declutters your editor but can also improve performance by reducing unnecessary processing."
+msgstr ""
+
+#: admin/tabs/blocks.php:88
+#: admin/tabs/free-vs-pro.php:9
+#: admin/tabs/welcome.php:76
+#: admin/tabs/welcome.php:97
+#: admin/tabs/welcome.php:111
+msgid "Pro"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:2
+msgid "Free vs Pro Comparison"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:3
+msgid "Compare the features of the Free and Pro versions to find the right fit for your needs. Unlock advanced blocks, customization options, and premium support with Pro."
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:7
+msgid "Features"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:8
+msgid "Free"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:14
+msgid "Pre-built header patterns"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:15
+msgid "5"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:16
+msgid "20+"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:19
+msgid "Pre-built footer patterns"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:20
+msgid "10"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:21
+msgid "50+"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:24
+msgid "Sticky Header"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:25
+#: admin/tabs/free-vs-pro.php:30
+#: admin/tabs/free-vs-pro.php:35
+#: admin/tabs/free-vs-pro.php:40
+msgid "Basic"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:26
+#: admin/tabs/free-vs-pro.php:31
+msgid "Advanced"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:29
+msgid "Responsive Header Options"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:34
+msgid "Default Search"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:36
+#: admin/tabs/free-vs-pro.php:41
+msgid "AJAX-powered"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:39
+msgid "Product Search"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:44
+msgid "Device-Specific Site Logo"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:57
+msgid "Device-Specific Menus"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:70
+msgid "Contact Info Block"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:83
+#: admin/tabs/welcome.php:111
+msgid "Dynamic Date for Copyright Text"
+msgstr ""
+
+#: admin/tabs/free-vs-pro.php:96
+msgid "Dynamic Business Hours Block"
+msgstr ""
+
+#: admin/tabs/sidebar.php:2
+msgid "Facing Issues? We’re Just a Click Away"
+msgstr ""
+
+#: admin/tabs/sidebar.php:3
+msgid "Still, having problems after reading all the documentation? No Problem!! Please create a support ticket. Our dedicated support team will help you to solve your problem."
+msgstr ""
+
+#: admin/tabs/sidebar.php:5
+msgid "Create Ticket"
+msgstr ""
+
+#: admin/tabs/sidebar.php:7
+msgid "Note: The support ticket has consistently received responses within a 24-hour timeframe."
+msgstr ""
+
+#: admin/tabs/sidebar.php:11
+msgid "Your Voice Makes a Difference"
+msgstr ""
+
+#: admin/tabs/sidebar.php:12
+msgid "We kindly kindly request your review and feedback, to help us continue to enhance our product. Your feedback and review would be greatly appreciated!"
+msgstr ""
+
+#: admin/tabs/sidebar.php:14
+msgid "Rate & Review"
+msgstr ""
+
+#: admin/tabs/sidebar.php:15
+msgid "Leave Feedback"
+msgstr ""
+
+#: admin/tabs/welcome.php:3
+msgid "Welcome to Rootblox- Header and Footer Builder for Full Site Editing"
+msgstr ""
+
+#: admin/tabs/welcome.php:7
+msgid "RootBlox is a lightweight and flexible WordPress plugin that offers a curated set of header and footer patterns through dedicated blocks. Built for the block editor and fully compatible with Full Site Editing (FSE), it lets you create professional, responsive layouts in minutes with seamless customization and integration."
+msgstr ""
+
+#: admin/tabs/welcome.php:20
+msgid "20+ Pre-built Fully Customizable Header Layouts"
+msgstr ""
+
+#: admin/tabs/welcome.php:21
+msgid "Choose from 20+ pre-built header layouts, fully customizable to match your site's style—no coding needed. Effortlessly edit, rearrange, and personalize every element."
+msgstr ""
+
+#: admin/tabs/welcome.php:23
+#: admin/tabs/welcome.php:34
+#: admin/tabs/welcome.php:46
+#: admin/tabs/welcome.php:57
+msgid "Explore More"
+msgstr ""
+
+#: admin/tabs/welcome.php:31
+msgid "40+ Pre-built Fully Customizable Footer Layouts"
+msgstr ""
+
+#: admin/tabs/welcome.php:32
+msgid "Access 40+ pre-built footer layouts, all fully customizable to fit your brand. Easily tweak colors, content, and structure for a perfect, professional finish."
+msgstr ""
+
+#: admin/tabs/welcome.php:43
+msgid "Advanced Responsive Menu Builder"
+msgstr ""
+
+#: admin/tabs/welcome.php:44
+msgid "Create fully responsive, mobile-friendly menus with ease using the Advanced Responsive Menu Builder. Customize layouts, styles, and breakpoints to match any device or design."
+msgstr ""
+
+#: admin/tabs/welcome.php:54
+msgid "Ajax Search Integrated"
+msgstr ""
+
+#: admin/tabs/welcome.php:55
+msgid "Enhance user experience with integrated AJAX Search for instant, real-time results. Fast, dynamic, and seamlessly styled to match your site."
+msgstr ""
+
+#: admin/tabs/welcome.php:76
+msgid "Dynamic Business Hours"
+msgstr ""
+
+#: admin/tabs/welcome.php:77
+msgid "Easily display customizable business hours that adjust based on the day and time, perfect for keeping your visitors informed in real-time."
+msgstr ""
+
+#: admin/tabs/welcome.php:97
+msgid "Site Loading Progress Bar"
+msgstr ""
+
+#: admin/tabs/welcome.php:98
+msgid "Enhance user experience with a sleek, animated progress bar that visually indicates page loading status for smoother navigation."
+msgstr ""
+
+#: admin/tabs/welcome.php:112
+msgid "Automatically displays the current year in your copyright notice, keeping your site up to date without manual edits."
+msgstr ""
+
+#: blocks/business-hours/build/render.php:251
+#: blocks/business-hours/src/render.php:251
+msgid "Monday"
+msgstr ""
+
+#: blocks/business-hours/build/render.php:252
+#: blocks/business-hours/src/render.php:252
+msgid "Tuesday"
+msgstr ""
+
+#: blocks/business-hours/build/render.php:253
+#: blocks/business-hours/src/render.php:253
+msgid "Wednesday"
+msgstr ""
+
+#: blocks/business-hours/build/render.php:254
+#: blocks/business-hours/src/render.php:254
+msgid "Thursday"
+msgstr ""
+
+#: blocks/business-hours/build/render.php:255
+#: blocks/business-hours/src/render.php:255
+msgid "Friday"
+msgstr ""
+
+#: blocks/business-hours/build/render.php:256
+#: blocks/business-hours/src/render.php:256
+msgid "Saturday"
+msgstr ""
+
+#: blocks/business-hours/build/render.php:257
+#: blocks/business-hours/src/render.php:257
+msgid "Sunday"
+msgstr ""
+
+#: blocks/business-hours/build/render.php:315
+#: blocks/business-hours/build/render.php:377
+#: blocks/business-hours/src/render.php:315
+#: blocks/business-hours/src/render.php:377
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/index.js:228
+#: blocks/business-hours/src/edit/index.js:325
+msgid "Closed"
+msgstr ""
+
+#: blocks/header/build/render.php:991
+#: blocks/header/src/render.php:991
+msgid "Search..."
+msgstr ""
+
+#: includes/class-rootblox-admin.php:115
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-rootblox-blocks.php:83
+msgid "Rootblox — Header Elements"
+msgstr ""
+
+#: includes/class-rootblox-blocks.php:87
+msgid "Rootblox — Footer Elements"
+msgstr ""
+
+#: includes/class-rootblox-blocks.php:199
+msgid "Modal Search"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/contact-info/build/index.js:1
+#: blocks/copyright-text/build/index.js:1
+#: blocks/footer/build/index.js:1
+#: blocks/header/build/index.js:1
+#: resources/components/utility.js:184
+msgid "Need More Options?"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/contact-info/build/index.js:1
+#: blocks/copyright-text/build/index.js:1
+#: blocks/footer/build/index.js:1
+#: blocks/header/build/index.js:1
+#: resources/components/utility.js:186
+msgid " PRO gives you full control over styling, layout, and advanced features."
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:74
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Settings.js:26
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:31
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:47
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:111
+msgid "General"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:79
+msgid "12 Hour Format"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:90
+msgid "Enable Notification"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:104
+msgid "Abbreviate Label"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:120
+msgid "Custom Abbreviation"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:137
+msgid "Abbreviation length"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:151
+msgid "Set how many characters to use from the weekday name for its abbreviation."
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:163
+msgid "Show Timezone Mismatch Warning"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:174
+msgid "Enable to show a warning if the user's local timezone differs from the system timezone."
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:184
+msgid "Availability Settings"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:189
+msgid "Scheduling Mode"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:204
+#: blocks/business-hours/src/edit/components/Styles.js:119
+#: blocks/business-hours/src/edit/components/Styles.js:685
+#: blocks/business-hours/src/edit/components/Styles.js:1255
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:231
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:238
+#: blocks/header/src/edit/components/Styles.js:2957
+msgid "Default"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:208
+msgid "Grouped"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:221
+msgid "Business Day?"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:240
+#: blocks/business-hours/src/edit/components/Settings.js:445
+msgid "Open 24 Hours"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:267
+#: blocks/business-hours/src/edit/components/Settings.js:474
+msgid "Opening Hour"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:286
+#: blocks/business-hours/src/edit/components/Settings.js:494
+msgid "Closing Hour"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:309
+#: blocks/business-hours/src/edit/components/Settings.js:519
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:921
+#: blocks/header/src/edit/components/Settings.js:1294
+msgid "Label"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:337
+msgid "Starting day of week"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:380
+msgid "Group "
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:384
+msgid "Start Day"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:404
+msgid "End Day"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:425
+msgid "Business Day"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:550
+msgid "Add Group"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:586
+msgid "Group Separator"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:602
+msgid "Separator"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:618
+msgid "Vertical Align"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:631
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:316
+msgid "Top"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:636
+msgid "Middle"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:641
+msgid "End"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:650
+#: blocks/business-hours/src/edit/components/Settings.js:883
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Settings.js:33
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:247
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:519
+#: blocks/header/src/edit/components/Settings.js:890
+#: blocks/header/src/edit/components/Settings.js:1136
+msgid "Gap"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:671
+msgid "Notification Settings"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:676
+msgid "Available Message"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:690
+msgid "Away Message"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:704
+msgid "Enable Timer"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:715
+msgid "Sets the countdown until open/close."
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:723
+msgid "Difference"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:734
+#: blocks/business-hours/src/edit/components/Settings.js:740
+msgid "Set how soon before open/close."
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:746
+msgid "Opening Soon Message"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:757
+msgid "Replaces \"Available Message\" when the timer shows."
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:764
+msgid "Closing Soon Message"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:775
+msgid "Replaces \"Away Message\" when the timer shows."
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:783
+msgid "Timer Labels"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:788
+#: blocks/business-hours/src/edit/components/Settings.js:805
+#: blocks/business-hours/src/edit/components/Settings.js:822
+msgid "Hour"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:848
+msgid "Timezone Notice Settings"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:853
+#: blocks/business-hours/src/edit/components/Styles.js:1260
+#: blocks/business-hours/src/edit/components/Styles.js:1672
+msgid "Message"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Settings.js:867
+msgid "Display System Time"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:49
+msgid "Weekday Styles"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:55
+#: blocks/business-hours/src/edit/components/Styles.js:579
+#: blocks/business-hours/src/edit/components/Styles.js:1149
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:56
+#: blocks/contact-info/src/edit/components/Styles.js:415
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:48
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:998
+#: blocks/header/src/edit/components/Styles.js:2083
+#: blocks/header/src/edit/components/Styles.js:2175
+#: blocks/header/src/edit/components/Styles.js:2515
+msgid "Padding"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:80
+#: blocks/business-hours/src/edit/components/Styles.js:99
+#: blocks/business-hours/src/edit/components/Styles.js:646
+#: blocks/business-hours/src/edit/components/Styles.js:1216
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:81
+#: blocks/contact-info/src/edit/components/Styles.js:484
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:172
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1023
+#: blocks/header/src/edit/components/Styles.js:2152
+#: blocks/header/src/edit/components/Styles.js:2200
+#: blocks/header/src/edit/components/Styles.js:2585
+#: blocks/header/src/edit/components/Styles.js:3029
+msgid "Border"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:124
+#: blocks/business-hours/src/edit/components/Styles.js:536
+msgid "Weekday"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:136
+#: blocks/business-hours/src/edit/components/Styles.js:309
+#: blocks/business-hours/src/edit/components/Styles.js:702
+#: blocks/business-hours/src/edit/components/Styles.js:875
+#: blocks/business-hours/src/edit/components/Styles.js:1272
+#: blocks/business-hours/src/edit/components/Styles.js:1445
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:116
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:100
+#: blocks/copyright-text/src/edit/components/Styles.js:309
+#: blocks/copyright-text/src/edit/components/Styles.js:524
+#: blocks/copyright-text/src/edit/components/Styles.js:621
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:210
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:166
+#: blocks/header/src/edit/components/Styles.js:360
+#: blocks/header/src/edit/components/Styles.js:779
+#: blocks/header/src/edit/components/Styles.js:1066
+#: blocks/header/src/edit/components/Styles.js:1379
+#: blocks/header/src/edit/components/Styles.js:1844
+#: blocks/header/src/edit/components/Styles.js:2219
+#: blocks/header/src/edit/components/Styles.js:2621
+msgid "Font Family"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:158
+#: blocks/business-hours/src/edit/components/Styles.js:336
+#: blocks/business-hours/src/edit/components/Styles.js:724
+#: blocks/business-hours/src/edit/components/Styles.js:903
+#: blocks/business-hours/src/edit/components/Styles.js:1294
+#: blocks/business-hours/src/edit/components/Styles.js:1472
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:137
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:121
+#: blocks/copyright-text/src/edit/components/Styles.js:330
+#: blocks/copyright-text/src/edit/components/Styles.js:548
+#: blocks/copyright-text/src/edit/components/Styles.js:642
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:231
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:191
+#: blocks/header/src/edit/components/Styles.js:385
+#: blocks/header/src/edit/components/Styles.js:800
+#: blocks/header/src/edit/components/Styles.js:1087
+#: blocks/header/src/edit/components/Styles.js:1400
+#: blocks/header/src/edit/components/Styles.js:1868
+#: blocks/header/src/edit/components/Styles.js:2240
+#: blocks/header/src/edit/components/Styles.js:2642
+msgid "Font Size"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:177
+#: blocks/business-hours/src/edit/components/Styles.js:361
+#: blocks/business-hours/src/edit/components/Styles.js:743
+#: blocks/business-hours/src/edit/components/Styles.js:928
+#: blocks/business-hours/src/edit/components/Styles.js:1313
+#: blocks/business-hours/src/edit/components/Styles.js:1497
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:156
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:140
+#: blocks/copyright-text/src/edit/components/Styles.js:349
+#: blocks/copyright-text/src/edit/components/Styles.js:567
+#: blocks/copyright-text/src/edit/components/Styles.js:661
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:250
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:213
+#: blocks/header/src/edit/components/Styles.js:407
+#: blocks/header/src/edit/components/Styles.js:819
+#: blocks/header/src/edit/components/Styles.js:1106
+#: blocks/header/src/edit/components/Styles.js:1419
+#: blocks/header/src/edit/components/Styles.js:1890
+#: blocks/header/src/edit/components/Styles.js:2259
+#: blocks/header/src/edit/components/Styles.js:2661
+msgid "Font Weight"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:199
+#: blocks/business-hours/src/edit/components/Styles.js:387
+#: blocks/business-hours/src/edit/components/Styles.js:765
+#: blocks/business-hours/src/edit/components/Styles.js:955
+#: blocks/business-hours/src/edit/components/Styles.js:1335
+#: blocks/business-hours/src/edit/components/Styles.js:1523
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:178
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:162
+#: blocks/copyright-text/src/edit/components/Styles.js:371
+#: blocks/copyright-text/src/edit/components/Styles.js:683
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:272
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:238
+#: blocks/header/src/edit/components/Styles.js:432
+#: blocks/header/src/edit/components/Styles.js:841
+#: blocks/header/src/edit/components/Styles.js:1128
+#: blocks/header/src/edit/components/Styles.js:1914
+#: blocks/header/src/edit/components/Styles.js:2281
+#: blocks/header/src/edit/components/Styles.js:2683
+msgid "Letter Case"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:212
+#: blocks/business-hours/src/edit/components/Styles.js:249
+#: blocks/business-hours/src/edit/components/Styles.js:405
+#: blocks/business-hours/src/edit/components/Styles.js:447
+#: blocks/business-hours/src/edit/components/Styles.js:778
+#: blocks/business-hours/src/edit/components/Styles.js:815
+#: blocks/business-hours/src/edit/components/Styles.js:973
+#: blocks/business-hours/src/edit/components/Styles.js:1015
+#: blocks/business-hours/src/edit/components/Styles.js:1348
+#: blocks/business-hours/src/edit/components/Styles.js:1385
+#: blocks/business-hours/src/edit/components/Styles.js:1541
+#: blocks/business-hours/src/edit/components/Styles.js:1583
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:192
+#: blocks/contact-info/src/edit/components/Styles.js:230
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:175
+#: blocks/copyright-text/src/edit/components/Styles.js:212
+#: blocks/copyright-text/src/edit/components/Styles.js:384
+#: blocks/copyright-text/src/edit/components/Styles.js:421
+#: blocks/copyright-text/src/edit/components/Styles.js:696
+#: blocks/copyright-text/src/edit/components/Styles.js:733
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:285
+#: blocks/footer/src/edit/components/Styles.js:322
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:254
+#: blocks/header/src/edit/components/Styles.js:294
+#: blocks/header/src/edit/components/Styles.js:448
+#: blocks/header/src/edit/components/Styles.js:488
+#: blocks/header/src/edit/components/Styles.js:854
+#: blocks/header/src/edit/components/Styles.js:891
+#: blocks/header/src/edit/components/Styles.js:1141
+#: blocks/header/src/edit/components/Styles.js:1178
+#: blocks/header/src/edit/components/Styles.js:1929
+#: blocks/header/src/edit/components/Styles.js:1968
+#: blocks/header/src/edit/components/Styles.js:2294
+#: blocks/header/src/edit/components/Styles.js:2331
+#: blocks/header/src/edit/components/Styles.js:2696
+#: blocks/header/src/edit/components/Styles.js:2733
+msgid "None"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:217
+#: blocks/business-hours/src/edit/components/Styles.js:410
+#: blocks/business-hours/src/edit/components/Styles.js:783
+#: blocks/business-hours/src/edit/components/Styles.js:978
+#: blocks/business-hours/src/edit/components/Styles.js:1353
+#: blocks/business-hours/src/edit/components/Styles.js:1546
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:197
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:180
+#: blocks/copyright-text/src/edit/components/Styles.js:389
+#: blocks/copyright-text/src/edit/components/Styles.js:701
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:290
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:259
+#: blocks/header/src/edit/components/Styles.js:453
+#: blocks/header/src/edit/components/Styles.js:864
+#: blocks/header/src/edit/components/Styles.js:1151
+#: blocks/header/src/edit/components/Styles.js:1939
+#: blocks/header/src/edit/components/Styles.js:2304
+#: blocks/header/src/edit/components/Styles.js:2706
+msgid "Uppercase"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:222
+#: blocks/business-hours/src/edit/components/Styles.js:415
+#: blocks/business-hours/src/edit/components/Styles.js:788
+#: blocks/business-hours/src/edit/components/Styles.js:983
+#: blocks/business-hours/src/edit/components/Styles.js:1358
+#: blocks/business-hours/src/edit/components/Styles.js:1551
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:202
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:185
+#: blocks/copyright-text/src/edit/components/Styles.js:394
+#: blocks/copyright-text/src/edit/components/Styles.js:706
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:295
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:264
+#: blocks/header/src/edit/components/Styles.js:458
+#: blocks/header/src/edit/components/Styles.js:859
+#: blocks/header/src/edit/components/Styles.js:1146
+#: blocks/header/src/edit/components/Styles.js:1934
+#: blocks/header/src/edit/components/Styles.js:2299
+#: blocks/header/src/edit/components/Styles.js:2701
+msgid "Lowercase"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:227
+#: blocks/business-hours/src/edit/components/Styles.js:420
+#: blocks/business-hours/src/edit/components/Styles.js:793
+#: blocks/business-hours/src/edit/components/Styles.js:988
+#: blocks/business-hours/src/edit/components/Styles.js:1363
+#: blocks/business-hours/src/edit/components/Styles.js:1556
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:207
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:190
+#: blocks/copyright-text/src/edit/components/Styles.js:399
+#: blocks/copyright-text/src/edit/components/Styles.js:711
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:300
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:269
+#: blocks/header/src/edit/components/Styles.js:463
+#: blocks/header/src/edit/components/Styles.js:869
+#: blocks/header/src/edit/components/Styles.js:1156
+#: blocks/header/src/edit/components/Styles.js:1944
+#: blocks/header/src/edit/components/Styles.js:2309
+#: blocks/header/src/edit/components/Styles.js:2711
+msgid "Capitalize"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:236
+#: blocks/business-hours/src/edit/components/Styles.js:429
+#: blocks/business-hours/src/edit/components/Styles.js:802
+#: blocks/business-hours/src/edit/components/Styles.js:997
+#: blocks/business-hours/src/edit/components/Styles.js:1372
+#: blocks/business-hours/src/edit/components/Styles.js:1565
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:216
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:199
+#: blocks/copyright-text/src/edit/components/Styles.js:408
+#: blocks/copyright-text/src/edit/components/Styles.js:720
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:309
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:278
+#: blocks/header/src/edit/components/Styles.js:472
+#: blocks/header/src/edit/components/Styles.js:878
+#: blocks/header/src/edit/components/Styles.js:1165
+#: blocks/header/src/edit/components/Styles.js:1953
+#: blocks/header/src/edit/components/Styles.js:2318
+#: blocks/header/src/edit/components/Styles.js:2720
+msgid "Decoration"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:254
+#: blocks/business-hours/src/edit/components/Styles.js:452
+#: blocks/business-hours/src/edit/components/Styles.js:820
+#: blocks/business-hours/src/edit/components/Styles.js:1020
+#: blocks/business-hours/src/edit/components/Styles.js:1390
+#: blocks/business-hours/src/edit/components/Styles.js:1588
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:235
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:217
+#: blocks/copyright-text/src/edit/components/Styles.js:426
+#: blocks/copyright-text/src/edit/components/Styles.js:738
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:327
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:299
+#: blocks/header/src/edit/components/Styles.js:493
+#: blocks/header/src/edit/components/Styles.js:896
+#: blocks/header/src/edit/components/Styles.js:1183
+#: blocks/header/src/edit/components/Styles.js:1973
+#: blocks/header/src/edit/components/Styles.js:2336
+#: blocks/header/src/edit/components/Styles.js:2738
+msgid "Underline"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:259
+#: blocks/business-hours/src/edit/components/Styles.js:457
+#: blocks/business-hours/src/edit/components/Styles.js:825
+#: blocks/business-hours/src/edit/components/Styles.js:1025
+#: blocks/business-hours/src/edit/components/Styles.js:1395
+#: blocks/business-hours/src/edit/components/Styles.js:1593
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:240
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:222
+#: blocks/copyright-text/src/edit/components/Styles.js:431
+#: blocks/copyright-text/src/edit/components/Styles.js:743
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:332
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:304
+#: blocks/header/src/edit/components/Styles.js:498
+#: blocks/header/src/edit/components/Styles.js:901
+#: blocks/header/src/edit/components/Styles.js:1188
+#: blocks/header/src/edit/components/Styles.js:1978
+#: blocks/header/src/edit/components/Styles.js:2341
+#: blocks/header/src/edit/components/Styles.js:2743
+msgid "Strikethrough"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:270
+#: blocks/business-hours/src/edit/components/Styles.js:467
+#: blocks/business-hours/src/edit/components/Styles.js:836
+#: blocks/business-hours/src/edit/components/Styles.js:1035
+#: blocks/business-hours/src/edit/components/Styles.js:1406
+#: blocks/business-hours/src/edit/components/Styles.js:1603
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:251
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:233
+#: blocks/copyright-text/src/edit/components/Styles.js:442
+#: blocks/copyright-text/src/edit/components/Styles.js:754
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:343
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:315
+#: blocks/header/src/edit/components/Styles.js:509
+#: blocks/header/src/edit/components/Styles.js:912
+#: blocks/header/src/edit/components/Styles.js:1199
+#: blocks/header/src/edit/components/Styles.js:1989
+#: blocks/header/src/edit/components/Styles.js:2352
+#: blocks/header/src/edit/components/Styles.js:2754
+msgid "Line Height"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:287
+#: blocks/business-hours/src/edit/components/Styles.js:489
+#: blocks/business-hours/src/edit/components/Styles.js:853
+#: blocks/business-hours/src/edit/components/Styles.js:1057
+#: blocks/business-hours/src/edit/components/Styles.js:1423
+#: blocks/business-hours/src/edit/components/Styles.js:1625
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:268
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:250
+#: blocks/copyright-text/src/edit/components/Styles.js:459
+#: blocks/copyright-text/src/edit/components/Styles.js:771
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:360
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:335
+#: blocks/header/src/edit/components/Styles.js:529
+#: blocks/header/src/edit/components/Styles.js:929
+#: blocks/header/src/edit/components/Styles.js:1216
+#: blocks/header/src/edit/components/Styles.js:2008
+#: blocks/header/src/edit/components/Styles.js:2369
+#: blocks/header/src/edit/components/Styles.js:2771
+msgid "Letter Spacing"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:518
+#: blocks/business-hours/src/edit/components/Styles.js:1085
+#: blocks/business-hours/src/edit/components/Styles.js:1652
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:287
+#: blocks/contact-info/src/edit/components/Styles.js:539
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:267
+#: blocks/copyright-text/src/edit/components/Styles.js:476
+#: blocks/copyright-text/src/edit/components/Styles.js:587
+#: blocks/copyright-text/src/edit/components/Styles.js:788
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:381
+#: blocks/footer/src/edit/components/Styles.js:534
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:557
+#: blocks/header/src/edit/components/Styles.js:726
+#: blocks/header/src/edit/components/Styles.js:947
+#: blocks/header/src/edit/components/Styles.js:1234
+#: blocks/header/src/edit/components/Styles.js:3285
+msgid "Colors"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:521
+#: blocks/business-hours/src/edit/components/Styles.js:1090
+#: blocks/business-hours/src/edit/components/Styles.js:1657
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:592
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:575
+#: blocks/header/src/edit/components/Styles.js:1474
+msgid "Text"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:551
+#: blocks/business-hours/src/edit/components/Styles.js:1120
+#: blocks/business-hours/src/edit/components/Styles.js:1687
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:90
+#: blocks/header/src/edit/components/Styles.js:754
+msgid "Background"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:573
+msgid "Notification Styles"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:605
+#: blocks/business-hours/src/edit/components/Styles.js:1175
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:441
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:475
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2109
+#: blocks/header/src/edit/components/Styles.js:2541
+#: blocks/header/src/edit/components/Styles.js:2896
+msgid "Margin Top"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:625
+#: blocks/business-hours/src/edit/components/Styles.js:1195
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:461
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:495
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2129
+#: blocks/header/src/edit/components/Styles.js:2561
+#: blocks/header/src/edit/components/Styles.js:2919
+msgid "Margin Bottom"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:665
+#: blocks/business-hours/src/edit/components/Styles.js:1235
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:100
+#: blocks/contact-info/src/edit/components/Styles.js:503
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:191
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1042
+#: blocks/header/src/edit/components/Styles.js:2604
+#: blocks/header/src/edit/components/Styles.js:3050
+msgid "Border Radius"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:690
+#: blocks/business-hours/src/edit/components/Styles.js:1105
+msgid "Timer"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/components/Styles.js:1143
+msgid "Timezone Notice Styles"
+msgstr ""
+
+#: blocks/business-hours/build/index.js:1
+#: blocks/business-hours/src/edit/index.js:409
+msgid "Current Time in "
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/email/index.js:9
+msgid "Email"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/email/index.js:10
+msgid "Display your email address with a clickable link for instant communication."
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/email/edit.js:49
+msgid "sample@example.com"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/email/edit.js:63
+#: blocks/contact-info/src/location/edit.js:66
+#: blocks/contact-info/src/phone/edit.js:63
+msgid "Add Link"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/email/edit.js:75
+#: blocks/contact-info/src/location/edit.js:78
+#: blocks/contact-info/src/phone/edit.js:75
+msgid "Open in new tab"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/email/edit.js:86
+#: blocks/contact-info/src/location/edit.js:89
+#: blocks/contact-info/src/phone/edit.js:86
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:357
+#: blocks/header/src/edit/components/Settings.js:974
+#: blocks/header/src/edit/components/Settings.js:1389
+#: blocks/header/src/edit/components/Settings.js:2008
+msgid "Mark as no follow"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/email/edit.js:100
+#: blocks/contact-info/src/location/edit.js:103
+#: blocks/contact-info/src/phone/edit.js:100
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:143
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1327
+#: blocks/header/src/edit/components/Styles.js:1518
+#: blocks/header/src/edit/components/Styles.js:1622
+msgid "Icon Variation"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/email/edit.js:112
+#: blocks/contact-info/src/location/edit.js:115
+#: blocks/contact-info/src/phone/edit.js:112
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:157
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1342
+#: blocks/header/src/edit/components/Styles.js:1533
+#: blocks/header/src/edit/components/Styles.js:1637
+msgid "Variation 1"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/email/edit.js:117
+#: blocks/contact-info/src/location/edit.js:120
+#: blocks/contact-info/src/phone/edit.js:117
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:162
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1347
+#: blocks/header/src/edit/components/Styles.js:1538
+#: blocks/header/src/edit/components/Styles.js:1642
+msgid "Variation 2"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/email/edit.js:122
+#: blocks/contact-info/src/location/edit.js:125
+#: blocks/contact-info/src/phone/edit.js:122
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:167
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1352
+#: blocks/header/src/edit/components/Styles.js:1543
+#: blocks/header/src/edit/components/Styles.js:1647
+msgid "Variation 3"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/phone/index.js:9
+msgid "Phone"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/phone/index.js:10
+msgid "Display your phone number with a clickable link for quick and easy contact."
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/phone/edit.js:49
+msgid "+1‑415‑555‑0132"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/location/index.js:9
+msgid "Location"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/location/index.js:10
+msgid "Show your business location with a clickable address linked to Google Maps."
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/location/edit.js:49
+msgid "123 Maplewood Lane, Springfield, IL 62704, USA"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Settings.js:48
+msgid "Icon Gap"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Settings.js:68
+msgid "Vertical Alignment"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Settings.js:82
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:280
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1759
+#: blocks/header/src/edit/components/Settings.js:1977
+#: blocks/header/src/edit/components/Settings.js:2084
+#: blocks/header/src/edit/components/Settings.js:2116
+msgid "Left"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Settings.js:87
+msgid "Ceneter"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Settings.js:92
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:321
+msgid "Bottom"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Settings.js:99
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:546
+#: blocks/header/src/edit/components/Settings.js:1783
+#: blocks/header/src/edit/components/Settings.js:1908
+msgid "Stack Layout"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Settings.js:113
+msgid "Vertical Gap"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:50
+msgid "Item Styles"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:290
+msgid "Text/Icon (Default)"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:305
+msgid "Text/Icon (Hover)"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:320
+#: blocks/contact-info/src/edit/components/Styles.js:572
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:414
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1491
+#: blocks/header/src/edit/components/Styles.js:1268
+#: blocks/header/src/edit/components/Styles.js:2832
+#: blocks/header/src/edit/components/Styles.js:3212
+msgid "Background (Default)"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:335
+#: blocks/contact-info/src/edit/components/Styles.js:587
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:429
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1522
+#: blocks/header/src/edit/components/Styles.js:1283
+#: blocks/header/src/edit/components/Styles.js:2850
+#: blocks/header/src/edit/components/Styles.js:3118
+#: blocks/header/src/edit/components/Styles.js:3232
+msgid "Background (Hover)"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:350
+#: blocks/contact-info/src/edit/components/Styles.js:602
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:444
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1586
+#: blocks/header/src/edit/components/Styles.js:1298
+#: blocks/header/src/edit/components/Styles.js:2869
+#: blocks/header/src/edit/components/Styles.js:3139
+#: blocks/header/src/edit/components/Styles.js:3253
+msgid "Border (Hover)"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:373
+msgid "Icon Styles"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:380
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2989
+msgid "Box Width"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:397
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:3008
+msgid "Box Height"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:521
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:154
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:709
+#: blocks/header/src/edit/components/Styles.js:1363
+#: blocks/header/src/edit/components/Styles.js:1554
+#: blocks/header/src/edit/components/Styles.js:1656
+#: blocks/header/src/edit/components/Styles.js:2968
+msgid "Icon Size"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:542
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1444
+#: blocks/header/src/edit/components/Styles.js:1575
+#: blocks/header/src/edit/components/Styles.js:1677
+#: blocks/header/src/edit/components/Styles.js:3174
+msgid "Icon (Default)"
+msgstr ""
+
+#: blocks/contact-info/build/index.js:1
+#: blocks/contact-info/src/edit/components/Styles.js:557
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:742
+#: blocks/header/src/edit/components/Styles.js:1459
+#: blocks/header/src/edit/components/Styles.js:1590
+#: blocks/header/src/edit/components/Styles.js:1692
+#: blocks/header/src/edit/components/Styles.js:3100
+#: blocks/header/src/edit/components/Styles.js:3194
+msgid "Icon (Hover)"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:37
+msgid "Select Tag"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:40
+msgid "H1"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:44
+msgid "H2"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:48
+msgid "H3"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:52
+msgid "H4"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:56
+msgid "H5"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:60
+msgid "H6"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:64
+msgid "div"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:68
+msgid "span"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:72
+msgid "p"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:87
+msgid "Add Preceeding Text"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:101
+msgid "Add Dynamic Year"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:115
+msgid "Add Subsequent Text"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:133
+msgid "Preceeding Text Settings"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:139
+#: blocks/copyright-text/src/edit/components/Settings.js:241
+msgid "Content"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:158
+msgid "Dynamic Year Settings"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:166
+#: blocks/copyright-text/src/edit/components/Settings.js:175
+msgid "Add Range"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:191
+msgid "Previous Year Range"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:210
+msgid "Range Separator"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Settings.js:235
+msgid "Subsequent Text Settings"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:42
+msgid "Spacing"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:70
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:57
+msgid "Margin"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:94
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:144
+msgid "Typography"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:272
+#: blocks/copyright-text/src/edit/components/Styles.js:481
+#: blocks/copyright-text/src/edit/components/Styles.js:793
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1427
+#: blocks/header/src/edit/components/Styles.js:951
+#: blocks/header/src/edit/components/Styles.js:1238
+#: blocks/header/src/edit/components/Styles.js:2037
+#: blocks/header/src/edit/components/Styles.js:2801
+msgid "Text (Default)"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:284
+#: blocks/copyright-text/src/edit/components/Styles.js:496
+#: blocks/copyright-text/src/edit/components/Styles.js:808
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1459
+#: blocks/header/src/edit/components/Styles.js:966
+#: blocks/header/src/edit/components/Styles.js:1253
+#: blocks/header/src/edit/components/Styles.js:2054
+#: blocks/header/src/edit/components/Styles.js:2816
+msgid "Text (Hover)"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:303
+msgid "Preceeding Text Typography"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:519
+msgid "Dynamic Year Typography"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/Styles.js:615
+msgid "Subsequent Text Typography"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/InspectorControls.js:24
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/InspectorControls.js:24
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/InspectorControls.js:97
+msgid "Settings"
+msgstr ""
+
+#: blocks/copyright-text/build/index.js:1
+#: blocks/copyright-text/src/edit/components/InspectorControls.js:30
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/InspectorControls.js:30
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/InspectorControls.js:103
+msgid "Styles"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:52
+msgid "Add Back to top Button"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:69
+#: blocks/footer/src/edit/components/Settings.js:88
+msgid "Show Site Scroll Progress"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:77
+#: blocks/footer/src/edit/components/Settings.js:102
+msgid "Enable Script"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:122
+msgid "Back To Top Button Settings"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:127
+msgid "Enable Icon"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:172
+msgid "Variation 4"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:177
+msgid "Variation 5"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:186
+msgid "Enable Label"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:202
+msgid "Label Text"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:216
+msgid "Layout"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:235
+msgid "Inline"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:266
+#: blocks/footer/src/edit/components/Settings.js:303
+msgid "Position"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:285
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1769
+#: blocks/header/src/edit/components/Settings.js:1987
+#: blocks/header/src/edit/components/Settings.js:2094
+#: blocks/header/src/edit/components/Settings.js:2122
+msgid "Right"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:298
+msgid "Scroll Progress Settings"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:329
+#: blocks/footer/src/edit/components/Styles.js:100
+msgid "Height"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:350
+msgid "Custom Script"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Settings.js:355
+msgid "Add Script"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:51
+msgid "Back to Top Button Styles"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:83
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1729
+msgid "Width"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:119
+msgid "H. Padding"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:136
+msgid "V. Padding"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:384
+msgid "Icon/Text (Default)"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:399
+msgid "Icon/Text (Hover)"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:468
+msgid "Site Scroll Progress Styles"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:516
+msgid "Z Index"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/Styles.js:537
+msgid "Progress"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/PatternModal.js:157
+#: blocks/footer/src/edit/components/PatternModal.js:194
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/PatternModal.js:91
+#: blocks/header/src/edit/components/PatternModal.js:128
+msgid "Import Pattern"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/PatternModal.js:204
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/PatternModal.js:138
+msgid "Checkout Pro"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/components/PatternModal.js:214
+msgid "Choose Footer Pattern"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/index.js:153
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/index.js:455
+msgid "Replace Layout"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/index.js:187
+msgid "Footer"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/index.js:190
+msgid "Quickly start your site with pre-designed footer patterns."
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/index.js:197
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/index.js:505
+msgid "Add a Pattern"
+msgstr ""
+
+#: blocks/footer/build/index.js:1
+#: blocks/footer/src/edit/index.js:201
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/index.js:509
+msgid "Start Blank"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/top-bar/index.js:10
+msgid "Top Bar"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/top-bar/index.js:11
+msgid "Top bar element for Header block."
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:134
+#: blocks/header/src/edit/components/Settings.js:142
+msgid "Make Top Bar Sticky"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:159
+msgid "Hide when scrolled to bottom"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:168
+msgid "Hide on bottom scroll"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:184
+msgid "Bottom Scroll Offset"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:210
+msgid "Search Overlay Settings"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:217
+msgid "Search Variation"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:232
+msgid "If 'Product' is selected but WooCommerce is inactive, it will default to 'Post'."
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:242
+msgid "Product"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:249
+msgid "Enable Heading"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:268
+msgid "Heading Content"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:290
+#: blocks/header/src/edit/components/Settings.js:300
+msgid "Enable Ajax Search"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:319
+msgid "Posts per page"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:340
+#: blocks/header/src/edit/components/Settings.js:958
+msgid "Open link in new tab"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:385
+msgid "Responsive Menu Settings"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:390
+msgid "Overlay Menu"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:405
+msgid "Off"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:409
+msgid "Mobile"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:413
+msgid "Always"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:424
+#: blocks/header/src/edit/components/Settings.js:437
+msgid "Breakpoint"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:476
+msgid "Select Mobile Item"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:620
+msgid "Add Flex Box"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:648
+msgid "Site Identity Settings"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:654
+#: blocks/header/src/edit/components/Settings.js:1025
+msgid "Enable Site Logo"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:673
+msgid "Use Default Logo"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:683
+msgid "Default Logo"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:773
+msgid "Clear Selection"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:797
+msgid "Site Logo Width"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:815
+#: blocks/header/src/edit/components/Settings.js:1059
+msgid "Enable Site Title"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:831
+#: blocks/header/src/edit/components/Settings.js:1075
+msgid "Title Tag"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:845
+#: blocks/header/src/edit/components/Settings.js:1089
+msgid "Paragraph"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:850
+#: blocks/header/src/edit/components/Settings.js:1094
+msgid "Heading 1"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:855
+#: blocks/header/src/edit/components/Settings.js:1099
+msgid "Heading 2"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:860
+#: blocks/header/src/edit/components/Settings.js:1104
+msgid "Heading 3"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:865
+#: blocks/header/src/edit/components/Settings.js:1109
+msgid "Heading 4"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:870
+#: blocks/header/src/edit/components/Settings.js:1114
+msgid "Heading 5"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:875
+#: blocks/header/src/edit/components/Settings.js:1119
+msgid "Heading 6"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:915
+msgid "CTA Button Settings"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:939
+#: blocks/header/src/edit/components/Settings.js:1327
+msgid "Link"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:997
+msgid "Sidebar Panel Settings"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1004
+#: blocks/header/src/edit/components/Settings.js:2133
+#: blocks/header/src/edit/components/Styles.js:1718
+msgid "Preview Changes"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1009
+msgid "Enable Site Details"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1041
+msgid "Logo Width"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1168
+msgid "Enable Navigation"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1186
+msgid "Responsive Menu"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1205
+msgid "Menu Gap"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1222
+msgid "Submenu Gap"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1244
+#: blocks/header/src/edit/components/Settings.js:1266
+msgid "Enable CTA Button"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1295
+msgid "Add Text"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1358
+msgid "Open in New Tab"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1422
+#: blocks/header/src/edit/components/Styles.js:86
+#: blocks/header/src/edit/components/Styles.js:1441
+#: blocks/header/src/edit/components/Styles.js:1572
+#: blocks/header/src/edit/components/Styles.js:1674
+msgid "Color"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1554
+msgid "Border (Default)"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1660
+msgid "Add CTA Button"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1693
+#: blocks/header/src/edit/components/Settings.js:1926
+msgid "HGap"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1710
+#: blocks/header/src/edit/components/Settings.js:1945
+msgid "VGap"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1746
+msgid "Justification"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1764
+#: blocks/header/src/edit/components/Settings.js:1982
+#: blocks/header/src/edit/components/Settings.js:2089
+msgid "Center"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1774
+msgid "Space Between"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1804
+#: blocks/header/src/edit/components/Settings.js:1827
+msgid "Enable Social Icons"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1844
+msgid "Add Social Links"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1845
+msgid "Select Social Media"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1964
+msgid "Icon Justification"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:1994
+msgid "Open Link in new tab"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:2071
+msgid "Content Alignment"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Settings.js:2103
+msgid "Sidebar Position"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:114
+msgid "Backdrop Blur"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:125
+msgid "Make sure the background color of the wrapper group has opacity."
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:138
+msgid "Search Overlay Styles"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:148
+#: blocks/header/src/edit/components/Styles.js:560
+msgid "Heading"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:153
+msgid "Post Title"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:590
+msgid "Link (Default)"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:605
+msgid "Link (Hover)"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:620
+msgid "Overlay"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:635
+msgid "Close Icon"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:661
+msgid "Responsive Menu Styles"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:667
+msgid "Wrapper Padding"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:690
+msgid "Wrapper Border"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:730
+msgid "Text/Icon"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:774
+msgid "Site Identity Styles"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:992
+msgid "CTA Button Styles"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1321
+msgid "Mini Cart Icon Styles"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1489
+msgid "Text Background"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1512
+msgid "Account Icon Styles"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1616
+msgid "Menu Icon Styles"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1711
+msgid "Sidebar Panel Styles"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1724
+msgid "Sidebar Width"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1741
+msgid "Sidebar Padding"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1766
+msgid "Site Info"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1772
+msgid "Menu"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1808
+msgid "Buttons"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:1814
+msgid "Socials"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2030
+msgid "Site Info Color Palette"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2080
+msgid "Container"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2171
+msgid "Item"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2392
+msgid "Menu Color Palette"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2396
+msgid "Menu (Default)"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2411
+msgid "Menu (Hover)"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2427
+msgid "Submenu (Default)"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2446
+msgid "Submenu (Hover)"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2466
+msgid "Dropdown Icon (Default)"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2486
+msgid "Dropdown Icon (Hover)"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2794
+msgid "Buttons Color Palette"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2942
+msgid "Icon View"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:2961
+msgid "Stacked"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:3074
+msgid "Use Brand Color"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:3094
+#: blocks/header/src/edit/components/Styles.js:3168
+msgid "Socials Color Palette"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:3289
+msgid "Sidebar Background"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/Styles.js:3301
+msgid "Sidebar Close Icon"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/components/PatternModal.js:148
+msgid "Choose Header Pattern"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/index.js:495
+msgid "Header"
+msgstr ""
+
+#: blocks/header/build/index.js:1
+#: blocks/header/src/edit/index.js:498
+msgid "Quickly start your site with pre-designed header patterns."
+msgstr ""
+
+#: blocks/business-hours/build/block.json
+#: blocks/business-hours/src/block.json
+msgctxt "block title"
+msgid "Business Hours"
+msgstr ""
+
+#: blocks/business-hours/build/block.json
+#: blocks/business-hours/src/block.json
+msgctxt "block description"
+msgid "Displays your business hours in a clear, concise format to show when you're available."
+msgstr ""
+
+#: blocks/contact-info/build/block.json
+#: blocks/contact-info/src/block.json
+msgctxt "block title"
+msgid "Contact Info"
+msgstr ""
+
+#: blocks/contact-info/build/block.json
+#: blocks/contact-info/src/block.json
+msgctxt "block description"
+msgid "Display your business contact details clearly, including phone, email and address—all in one convenient block."
+msgstr ""
+
+#: blocks/copyright-text/build/block.json
+#: blocks/copyright-text/src/block.json
+msgctxt "block title"
+msgid "Copyright Text"
+msgstr ""
+
+#: blocks/copyright-text/build/block.json
+#: blocks/copyright-text/src/block.json
+msgctxt "block description"
+msgid "The Copyright Text block allows you to add a copyright text in the footer area."
+msgstr ""
+
+#: blocks/footer/build/block.json
+#: blocks/footer/src/block.json
+msgctxt "block title"
+msgid "Footer Builder"
+msgstr ""
+
+#: blocks/footer/build/block.json
+#: blocks/footer/src/block.json
+msgctxt "block description"
+msgid "The Footer Block allows you to design a fully customizable, responsive site footer with flexible layouts, widget areas, and styling options for a polished, professional finish."
+msgstr ""
+
+#: blocks/header/build/block.json
+#: blocks/header/src/block.json
+msgctxt "block title"
+msgid "Header Builder"
+msgstr ""
+
+#: blocks/header/build/block.json
+#: blocks/header/src/block.json
+msgctxt "block description"
+msgid "The Header Block lets you create a fully customizable, responsive site header with options for sticky behavior, transparent backgrounds, and flexible layouts."
+msgstr ""

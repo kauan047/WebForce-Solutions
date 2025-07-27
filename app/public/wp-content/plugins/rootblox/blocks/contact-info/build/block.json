@@ -1,0 +1,137 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cthf-blocks/contact-info",
+  "title": "Contact Info",
+  "description": "Display your business contact details clearly, including phone, email and address—all in one convenient block.",
+  "category": "rootblox-footer",
+  "supports": {
+    "html": false,
+    "color": {
+      "background": true,
+      "gradients": true,
+      "text": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "__experimentalDefaultControls": {
+        "padding": true
+      }
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    }
+  },
+  "attributes": {
+    "cover": {
+      "type": "string",
+      "default": ""
+    },
+    "clientId": {
+      "type": "string",
+      "default": ""
+    },
+    "gap": {
+      "type": "string",
+      "default": "16px"
+    },
+    "stackLayout": {
+      "type": "boolean",
+      "default": false
+    },
+    "itemStyles": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": ""
+        },
+        "radius": "",
+        "font": {
+          "size": "",
+          "weight": "",
+          "family": ""
+        },
+        "letterCase": "none",
+        "decoration": "underline",
+        "lineHeight": "",
+        "letterSpacing": "",
+        "color": {
+          "text": "",
+          "textHover": "",
+          "bg": "",
+          "bgHover": "",
+          "borderHover": ""
+        }
+      }
+    },
+    "icon": {
+      "type": "object",
+      "default": {
+        "enabled": true,
+        "gap": "8px",
+        "rowGap": "4px",
+        "align": "center",
+        "boxWidth": "",
+        "boxHeight": "",
+        "size": "16px",
+        "padding": {
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": ""
+        },
+        "margin": {
+          "top": "",
+          "bottom": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": ""
+        },
+        "radius": "",
+        "color": {
+          "svg": "",
+          "svgHover": "",
+          "bg": "",
+          "bgHover": "",
+          "borderHover": ""
+        }
+      }
+    }
+  },
+  "providesContext": {
+    "icon": "icon"
+  },
+  "editorScript": [
+    "cthf-blocks--contact-info"
+  ],
+  "editorStyle": [
+    "cthf-blocks--contact-info--editor-style"
+  ],
+  "style": [
+    "cthf-blocks--contact-info--style"
+  ],
+  "render": "file:./render.php"
+}

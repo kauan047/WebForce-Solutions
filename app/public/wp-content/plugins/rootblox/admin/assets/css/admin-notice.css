@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Admin menu icon */
+#toplevel_page__rootblox .wp-menu-image img {
+  width: 20px;
+  height: 20px;
+  padding: 6px 0 0 2px;
+}
+.notice.rootblox__welcome-notice {
+  --rootblox-primary-color: #673bf0;
+  --rootblox-secondary-color: #f90;
+  --rootblox-border-color: #ebe6fb;
+  --rootblox-dark-shade: #040c36;
+  --rootblox-light-shade: #fff;
+  --rootblox-meta-color: #414040;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  overflow: hidden;
+  border-left-color: var(--rootblox-primary-color);
+  font-family: "Inter";
+  padding-left: 0;
+}
+.notice.rootblox__welcome-notice .notice-content {
+  display: flex;
+  /* align-items: center; */
+  /* gap: 10px; */
+}
+.notice.rootblox__welcome-notice .brand-logo {
+  height: 100%;
+  padding-top: 20px;
+  box-sizing: border-box;
+  width: 15%;
+}
+.notice.rootblox__welcome-notice .brand-logo figure {
+  margin: 0;
+  text-align: center;
+}
+.notice.rootblox__welcome-notice .brand-logo img {
+  width: 30px;
+  height: auto;
+}
+.notice.rootblox__welcome-notice h2 {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Inter";
+  line-height: 1.3;
+  margin: 20px 0 16px;
+}
+.notice.rootblox__welcome-notice p {
+  font-size: 15px;
+  color: var(--rootblox-meta-color);
+}
+.notice.rootblox__welcome-notice .cthf__btn-wrap {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  gap: 16px;
+  margin: 16px 0 12px;
+}
+.notice.rootblox__welcome-notice .cthf__btn-wrap .cthf__btn {
+  padding: 6px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.notice.rootblox__welcome-notice .cthf__btn-wrap .cthf__btn.btn__primary {
+  background-color: var(--rootblox-primary-color);
+  color: var(--rootblox-light-shade);
+}
+.notice.rootblox__welcome-notice .cthf__btn-wrap .cthf__btn.btn__primary:hover {
+  background-color: #5930d6;
+}
+.notice.rootblox__welcome-notice .cthf__btn-wrap .cthf__btn.btn__secondary {
+  color: var(--rootblox-primary-color);
+  border: 1px solid var(--rootblox-primary-color);
+  background-color: transparent;
+}
+.notice.rootblox__welcome-notice
+  .cthf__btn-wrap
+  .cthf__btn.btn__secondary:hover {
+  background-color: var(--rootblox-dark-shade);
+  color: var(--rootblox-light-shade);
+  border-color: transparent;
+}
+
+.notice.rootblox__welcome-notice .plugin-screen {
+  margin-right: -38px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.notice.rootblox__welcome-notice .rootblox-notice__banner {
+  margin: 8px 0 0;
+  text-align: right;
+}
+.notice.rootblox__welcome-notice .rootblox-notice__banner img {
+  max-height: 200px;
+}
+
+@media only screen and (max-width: 1260px) {
+  .notice.rootblox__welcome-notice {
+    display: block;
+  }
+
+  .notice.rootblox__welcome-notice .rootblox-notice__banner {
+    margin-top: 36px;
+  }
+}

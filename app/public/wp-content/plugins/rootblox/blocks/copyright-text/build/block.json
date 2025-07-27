@@ -1,0 +1,128 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cthf-blocks/copyright-text",
+  "title": "Copyright Text",
+  "description": "The Copyright Text block allows you to add a copyright text in the footer area.",
+  "category": "rootblox-footer",
+  "attributes": {
+    "cover": {
+      "type": "string",
+      "default": ""
+    },
+    "clientId": {
+      "type": "string",
+      "default": ""
+    },
+    "tag": {
+      "type": "string",
+      "default": "p"
+    },
+    "beforeText": {
+      "type": "object",
+      "default": {
+        "enabled": true,
+        "content": "© ",
+        "font": {
+          "size": "",
+          "weight": "",
+          "family": ""
+        },
+        "letterCase": "none",
+        "decoration": "none",
+        "lineHeight": "",
+        "letterSpacing": "",
+        "color": {
+          "text": "",
+          "textHover": ""
+        }
+      }
+    },
+    "dynamicYear": {
+      "type": "object",
+      "default": {
+        "enabled": true,
+        "hasRange": false,
+        "range": 1,
+        "separator": "-",
+        "font": {
+          "size": "",
+          "weight": "",
+          "family": ""
+        },
+        "color": {
+          "text": ""
+        }
+      }
+    },
+    "afterText": {
+      "type": "object",
+      "default": {
+        "enabled": true,
+        "content": " <a href='#'>Company Name</a>. All rights reserved.",
+        "font": {
+          "size": "",
+          "weight": "",
+          "family": ""
+        },
+        "letterCase": "none",
+        "decoration": "none",
+        "lineHeight": "",
+        "letterSpacing": "",
+        "color": {
+          "text": "",
+          "textHover": ""
+        }
+      }
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "typography": {
+      "type": "object",
+      "default": {
+        "font": {
+          "size": "",
+          "weight": "",
+          "family": ""
+        },
+        "letterCase": "none",
+        "decoration": "none",
+        "lineHeight": "",
+        "letterSpacing": ""
+      }
+    },
+    "color": {
+      "type": "object",
+      "default": {
+        "text": "",
+        "textHover": ""
+      }
+    }
+  },
+  "editorScript": [
+    "cthf-blocks--copyright-text"
+  ],
+  "editorStyle": [
+    "cthf-blocks--copyright-text--editor-style"
+  ],
+  "style": [
+    "cthf-blocks--copyright-text--style"
+  ],
+  "render": "file:./render.php"
+}

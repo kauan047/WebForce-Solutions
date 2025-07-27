@@ -1,0 +1,31 @@
+.wp-block-social-links.cthf__has-border .wp-social-link {
+  border: 1px solid;
+}
+.cthf__display-none {
+  display: none;
+}
+.cthf__overflow-hidden {
+  overflow: hidden;
+}
+.cthf__opacity-blur {
+  opacity: 0.5;
+}
+
+/* Spinner */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cthf-block__wrapper .spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  border-top-color: #5100ff;
+  border-bottom-color: #5100ff;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}

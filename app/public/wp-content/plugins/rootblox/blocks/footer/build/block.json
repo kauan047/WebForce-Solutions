@@ -1,0 +1,100 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cthf-blocks/footer",
+  "title": "Footer Builder",
+  "description": "The Footer Block allows you to design a fully customizable, responsive site footer with flexible layouts, widget areas, and styling options for a polished, professional finish.",
+  "category": "rootblox-footer",
+  "attributes": {
+    "cover": {
+      "type": "string",
+      "default": ""
+    },
+    "clientId": {
+      "type": "string",
+      "default": ""
+    },
+    "backToTop": {
+      "type": "object",
+      "default": {
+        "enabled": true,
+        "enableIcon": true,
+        "enableLabel": false,
+        "label": "Top",
+        "gap": "0px",
+        "position": "right",
+        "boxWidth": "26px",
+        "boxHeight": "26px",
+        "hPadding": "12px",
+        "vPadding": "12px",
+        "iconSize": "20px",
+        "iconVariation": "variation-1",
+        "display": "column",
+        "margin": {
+          "top": "",
+          "right": "16px",
+          "bottom": "16px",
+          "left": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": ""
+        },
+        "radius": "100px",
+        "font": {
+          "size": "14px",
+          "weight": "",
+          "family": ""
+        },
+        "letterCase": "none",
+        "decoration": "none",
+        "lineHeight": "",
+        "letterSpacing": "",
+        "color": {
+          "icon": "",
+          "iconHover": "",
+          "bg": "",
+          "bgHover": "#f90",
+          "borderHover": ""
+        }
+      }
+    },
+    "scrollProgress": {
+      "type": "object",
+      "default": {
+        "enabled": false,
+        "position": "top",
+        "zIndex": "999",
+        "height": "4px",
+        "margin": {
+          "top": "",
+          "bottom": ""
+        },
+        "color": {
+          "bg": "#5100ff"
+        }
+      }
+    },
+    "customScript": {
+      "type": "object",
+      "default": {
+        "enabled": false,
+        "content": ""
+      }
+    }
+  },
+  "editorScript": [
+    "cthf-blocks--footer"
+  ],
+  "editorStyle": [
+    "cthf-blocks--footer--editor-style"
+  ],
+  "style": [
+    "cthf-blocks--footer--style"
+  ],
+  "viewScript": [
+    "cthf-blocks--footer--frontend-script"
+  ],
+  "render": "file:./render.php"
+}
