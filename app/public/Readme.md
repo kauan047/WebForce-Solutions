@@ -1,16 +1,4 @@
-.md = markdown
-
-LEIA ME 
-
-#TITULO
-WebForce Solutions
-
-## Descricao
- Este é um 
-
-------------------
-
-### Web Solutions - Seu Parceiro Digital
+# Web Solutions - Seu Parceiro Digital
 
 Este é o repositório da Landing Page oficial da **Web Solutions**, uma empresa dedicada a oferecer soluções digitais inovadoras e personalizadas. Nosso site serve como um ponto de contato e apresentação de nossos serviços, refletindo nossa paixão por tecnologia e excelência no mundo digital.
 
@@ -36,9 +24,9 @@ Este projeto foi desenvolvido com as seguintes tecnologias e princípios de desi
 * **Princípios de Design Minimalista:** Foco na usabilidade, clareza visual e uma estética limpa.
 * **Paleta de Cores:** Predominantemente branco com vibrantes acentos em verde, refletindo modernidade, frescor e crescimento.
 * **Ilustrações Customizadas:** Incluindo nosso mascote robozinho, que personaliza a marca e transmite uma sensação amigável e inteligente.
-* **WordPress (Se aplicável, ou outra tecnologia gerenciada pelo LocalWP):** (Adicionar se o projeto for em WordPress ou similar)
-* 
-*LocalWp
+* **LocalWP:** Ambiente de desenvolvimento local para gerenciar o projeto.
+
+
 ---
 
 ## 💡 Por Que Foi Construído?
@@ -48,6 +36,25 @@ A Web Solutions foi fundada em 2025 por um grupo de visionários apaixonados por
 * **Concretizar nossa presença digital:** Oferecendo uma plataforma profissional e acolhedora que reflete a qualidade dos nossos serviços.
 * **Comunicar nossa expertise e valores:** Demonstrando nossa capacidade de entregar soluções eficientes e o nosso compromisso com a inovação e o suporte ao cliente.
 * **Facilitar a interação:** Servindo como um canal principal para novos clientes e parcerias, simplificando o processo de contato e solicitação de orçamentos.
+
+---
+
+##  Decisões Técnicas
+
+Durante o desenvolvimento deste projeto, diversas decisões técnicas foram tomadas para garantir a performance, manutenibilidade e escalabilidade do site. As principais incluem:
+
+* **Escolha de HTML5, CSS3 e JavaScript Puro (Vanilla JS):**
+    * **Motivo:** Optei em manter o projeto o mais leve e performático possível. Para uma landing page simples, o JavaScript puro é suficiente para a interatividade necessária, reduzindo o tempo de carregamento e a complexidade do código.
+    * **Benefício:** Menor tamanho de arquivo, melhor performance de carregamento e controle total sobre o código.
+
+* **Uso de Flexbox e CSS Grid para Layout Responsivo:**
+    * **Motivo:** Estas são as tecnologias mais modernas e eficientes do CSS para criar layouts complexos e totalmente responsivos. Elas permitem um controle preciso sobre o posicionamento dos elementos em diferentes tamanhos de tela.
+  
+
+* **Design Minimalista e Foco na Usabilidade (UX):**
+    * **Motivo:** Acreditamos que um design limpo e intuitivo melhora a experiência do usuário, facilita a navegação e a absorção das informações. A simplicidade visual evita distrações e direciona o foco para o conteúdo e os serviços.
+    * **Benefício:** Maior engajamento do usuário, clareza na comunicação e uma estética moderna e profissional.
+
 
 ---
 
@@ -68,4 +75,4 @@ Certifique-se de ter o seguinte software instalado em seu sistema:
 Abra seu terminal ou prompt de comando e execute o seguinte comando para baixar o projeto:
 
 ```bash
-git clone [https://github.com/seu-usuario/web-solutions-landing-page.git](https://github.com/seu-usuario/web-solutions-landing-page.git)
+git clone [https://github.com/kauan047/WebForce-Solutions.git](https://github.com/kauan047/WebForce-Solutions.git)
